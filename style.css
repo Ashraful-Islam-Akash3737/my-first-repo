@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: white;
+}
+.header .navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #0f1111;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("Colors-Amazon-Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 1.90px;
+    margin-left: 5px;
+}
+
+.deliverto p {
+    font-size: 0.75rem;
+    font-weight: 550;
+    margin-left: 18px;
+}
+
+.location-icon {
+    display: flex;
+    align-items: end;
+}
+
+.location-icon i {
+    font-size: 20px;
+}
+
+.bd {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+/** Hero Secton **/
+.main-content {
+    height: 800px;
+    width: 100%;
+    /* display: relative; */
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("hero_.jpg");
+    background-size: cover;
+}
+
+.box {
+    height: 350px;
+    width: 23%;
+    background-color: green;
+    display: inline;
+    margin-top: 300px;
+    
+
+}
+
+
+/* .element {
+    margin-bottom: 500px;
+    margin-bottom: 200px;
+    height: 300px;
+    width: 100%;
+    background-color: red;
+} */
